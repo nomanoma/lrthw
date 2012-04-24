@@ -1,0 +1,5 @@
+    Try entering a word that is not in either of the lines so you can see that Regetron prints nothing. Like "pizza". Doesn't matter what it is.
+    Give regetron a file of text with regetron myfile.txt and then try these same expressions to see what you get. Make sure you do not enter the first !data command.
+    Do the same thing with the !load command.
+    Flip "match" mode on with !match and try these expressions again. Can you explain what's going on?
+    If you know Python, go read Regetron's code. It's pretty small.
