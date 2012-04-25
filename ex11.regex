@@ -1,0 +1,34 @@
+^[0-9]+|[A-Z]+$
+
+^       # start
+[0-9]+  # 0-through-9, one-or-more
+|       # OR
+[A-Z]+  # A-through-Z, one-or-more
+$       # to the end
+
+^[0-9]+|[a-z]+$
+
+^       # start
+[0-9]+  # 0-through-9, one-or-more
+|       # OR
+[a-z]+  # a-through-z, one-or-more
+$       # to the end
+
+^[4-6]+|[A-Z]+$
+
+^       # start
+[4-6]+  # 4-though-6, one-or-more
+|       # OR
+[A-Z]+  # A-through-Z, one-or-more
+$       # to the end
+
+^[^0-9]+$|^[^A-Z]+$
+
+^       # start
+[^0-9]+ # NOT 0-through-9, one-or-more
+$       # to the end
+|       # OR
+^       # start
+[^A-Z]+ # NOT A-through-Z, one-or-more
+$       # to the end
+

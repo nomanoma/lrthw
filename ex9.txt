@@ -1,0 +1,4 @@
+/blog/article/12345
+/blog/article/345
+/blog/article/NOV-01-2011
+blog/article/NOV-01-2011
