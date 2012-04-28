@@ -1,0 +1,22 @@
+
+\s # space
++  # one-or-more
+\w # word
++  # one-or-more
+[ ] # space char
+have # have
+[ ] # space char
+\w # word
++  # one-or-more
+\s # space
++  # one-or-more
+
+
+.* # any char, zero-or-more
+have # have
+\s # space
+\d # digit
+*  # zero-or-more
+\s # space
+.* # zero-or-more
+

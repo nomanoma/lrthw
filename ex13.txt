@@ -1,0 +1,6 @@
+.*[A-Z].*
+^[0-9]+.*$
+^\**\+*[A-Z\[\]]$
+^sdaflk;jasdlk;f.*$
+\+*yodomaro2222$$$$
+\+*yodomaro2222$aa

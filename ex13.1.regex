@@ -1,0 +1,14 @@
+
+# any regex that starts with .*[, has something inside the character set, and then ends with ].*
+\.\*\[.+\]\.\*
+
+# any regex that starts with ^, has something inside, and ends with a .*$
+^\^.+\.\*\$$
+
+# any regex that has \+*, something inside, and $ in it
+\\\+\*.*\$$
+
+
+# any regex that has \+*, something inside, and $ 
+\\\+\*.*\$
+
