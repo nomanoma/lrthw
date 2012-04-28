@@ -1,0 +1,4 @@
+!rep /[0-9]/X/
+!rep /[0-9]+\.[0-9]+\.[0-9]+/X.X.X.X/
+!rep ,http://(.+?),/https://site.com/\1
+!rep ,(http://)(.+?)/(.+?)/,\1test/zzz,
